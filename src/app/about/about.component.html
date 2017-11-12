@@ -1,0 +1,14 @@
+<h3>About</h3>
+<hr>
+<p>
+  This is a simple application to add a list of goals that have to be achived.
+</p>
+<p>
+  This is what I like to say about the application. <a href="" (click)="sendHome()" ><strong>Take me back</strong></a>
+</p>
+<h3>Goals</h3>
+<ul>
+  <li *ngFor="let goal of goals" >
+    {{ goal }}
+  </li>
+</ul>
